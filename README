@@ -7,8 +7,16 @@
 :  Some of these functions, specifically the file.lib functions are mainly for PHP4, PHP5 has some alternative ways of manipulating files. These functions are backwards compatible though.
 
  === Included Files
- * files.lib.php   -- simple file manipulation funcitons
- * dir.lib.php     -- simple directory functions
+ * call_external_func.lib.php  -- allows remotely executing a function on the local server
+ * csv.lib.php     -- read/write CSV files with ease
+ * dir.lib.php     -- dir_list, recursive rm, safe_dir, etc..
  * extend.lib.php  -- miscellaneous utility functions
+ * file.lib.php    -- simple file manipulation funcitons
+ * ini.lib.php     -- extra ini file functionality
+ * mysql.lib.php   -- basic MySQL insert/update
+ * secure.lib.php  -- session management with authentication levels
  * wiki.lib.php    -- basic wiki-markdown interpreter
- * 
+ * wiki-v3.lib.php -- advanced wiki-style markdown parser
+
+==== Call_External_Func.lib
+Execute a PHP file via a new HTTP connection, allows background tasks to be run in parallel.
