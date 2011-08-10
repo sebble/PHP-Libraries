@@ -14,7 +14,7 @@
  * file.lib.php    -- simple file manipulation funcitons
  * ini.lib.php     -- extra ini file functionality
  * mysql.lib.php   -- basic MySQL insert/update
- * nophar.lib.php  -- very simple archive solution  [not yet added, nearly finished]
+ * nophar.lib.php  -- very simple archive solution  [nearly finished]
  * secure.lib.php  -- session management with authentication levels
  * sql.php.lib     -- manipulate PHP arrays with SQL-like queries  [lost somewhere]
  * wiki.lib.php    -- basic wiki-markdown interpreter
