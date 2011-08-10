@@ -14,9 +14,12 @@
  * file.lib.php    -- simple file manipulation funcitons
  * ini.lib.php     -- extra ini file functionality
  * mysql.lib.php   -- basic MySQL insert/update
+ * nophar.lib.php  -- very simple archive solution  [not yet added, nearly finished]
  * secure.lib.php  -- session management with authentication levels
+ * sql.php.lib     -- manipulate PHP arrays with SQL-like queries  [lost somewhere]
  * wiki.lib.php    -- basic wiki-markdown interpreter
  * wiki-v3.lib.php -- advanced wiki-style markdown parser
+ * wiki-v4.lib.php -- wiki-v3, multiple configs, more options  [not yet written]
 
 ==== Call_External_Func.lib
 Execute a PHP file via a new HTTP connection, allows background tasks to be run in parallel.
