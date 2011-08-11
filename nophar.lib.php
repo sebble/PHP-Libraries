@@ -85,6 +85,8 @@ class NoPhar{
     function extractTo($dir){
         
         foreach($this->contents as $f=>$c){
+            $b = basename($f);
+            if($b=='.'||$b=='..') continue;
             $d = dirname($f);
             $this->create_path($dir.'/'.$d);
             file_put_contents($dir.'/'.$f,$c);
